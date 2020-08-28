@@ -1,0 +1,48 @@
+/* Background Color */
+body {
+    background-color: lightgray;
+}
+
+/* Header Font Styling */
+h1 {
+    color: rgb(34, 170, 156);
+}
+h2 {
+    color: rgb(34, 170, 156);
+}
+h6 {
+    color: rgb(34, 170, 156);
+    text-align: center;
+}
+
+/* Home Button */
+.homebutton {
+    color: white;
+    border: 50px rgb(34, 170, 156);
+    background-color: rgb(34, 170, 156);
+    
+}
+
+/* Paragraph line spacing */
+p {
+    line-height: 2;
+}
+
+/* Summary of Analysis */
+.summary {
+    /* border-left-width: 25px; */
+    background-color: whitesmoke;
+    /* padding-right: 10px; */
+    background-clip: content-box;
+    box-shadow: inset 0 0 5 15px whitesmoke;
+    /* border-block: 10px;
+    border-block-color: whitesmoke; */
+}
+
+/* Visualization Preview */
+.preview {
+    background-color: whitesmoke;
+    /* padding-left: 10px; */
+    background-clip: content-box;
+    box-shadow: inset 0 0 5 15px whitesmoke;    
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Max Temperature</title>
+    <!-- Import bootstrap stylesheet -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Import customized stylesheet -->
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <a class="navbar-brand" href="Landing_page.html">
+            <h2>Latitude</h2>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav offset-10">
+                <li class="nav-item dropdown active">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Plots
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item active" href="Max_temp.html">vs. Max Temp</a>
+                        <a class="dropdown-item active" href="Humidity.html">vs. Humidity</a>
+                        <a class="dropdown-item active" href="Cloudiness.html">vs. Cloudiness</a>
+                        <a class="dropdown-item active" href="Wind_speed.html">vs. Wind Speed</a>
+                    </div>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="Comparison.html">Comparison</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="Data.html">Data</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <br>
+
+    <!-- Page Layout -->
+    <!-- Create overall grid -->
+    <div class="container">
+        <!-- Row 1 -->
+        <div class="row">
+            <!-- Column 1 -->
+            <div class="col-md-8 summary">
+                <h1>Max Temperature</h1>
+                <hr>
+                <br>
+                <p>
+                    <img src="images/LatitudeVsTemperature.png" alt="Max Temp"
+                        style="float:left;width:250px;height:200px;padding-right:10px;display:block;">
+                    In this analysis of latitude of a city compared to its temperature we see that the closer the city is to the equater
+                    (latitude = 0), the higher the max temperature will be. What is interesting to note, is that at a latitude of 30o, the
+                    temperature is the highest. This could be due to the angle at which Earth orbits the Sun.
+                </p>
+            </div>
+            <!-- Column 2 -->
+            <div class="col-md-4> preview">
+                <h1>Visualizations</h1>
+                <hr>
+                <br>
+                <!-- Row 1 -->
+                <div class="row">
+                    <div class="col-6">
+                        <a href="max_temp.html" target="_self"><img src="images/LatitudeVsTemperature.png" alt="Max Temp"
+                                style="float:left;width:150px;height:100px;padding-right:10px;display:block;"></a>
+                    </div>
+                    <div class="col-6">
+                        <a href="humidity.html" target="_self"><img src="images/LatitudeVsHumidity.png" alt="Humidity"
+                                style="float:right;width:150px;height:100px;padding-right:10px;display:block;"></a>
+                    </div>
+                </div>
+                <!-- Row 2 -->
+                <br>
+                <div class="row">
+                    <div class="col-6">
+                        <a href="Cloudiness.html" target="_self"><img src="images/LatitudeVsCloudiness.png" alt="Cloudiness"
+                                style="float:left;width:150px;height:100px;padding-right:10px;display:block;"></a>
+    
+                    </div>
+                    <div class="col-6">
+                        <a href="Wind_speed.html" target="_self"><img src="images/LatitudeVsWindSpeed.png" alt="Wind Speed"
+                                style="float:right;width:150px;height:100px;padding-right:10px;display:block;"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+
+</body>
