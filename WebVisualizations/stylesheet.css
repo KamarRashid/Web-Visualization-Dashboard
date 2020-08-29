@@ -36,12 +36,16 @@ h6 {
 /* Home Button */
 .navbar-brand  {
     color: white;
-    /* border: 50px rgb(34, 170, 156); */
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 5px;
     padding-right: 5px;
     background-color: rgb(34, 170, 156);
+}
+
+/* NavBar Drop */
+.dropdown-item {
+    background-color: lightgrey;
 }
 
 /* Paragraph line spacing */
