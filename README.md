@@ -1,6 +1,6 @@
 # Web Design Homework - Web Visualization Dashboard (Latitude)
 
-## [Latitude vs. X](https://kamarrashid.github.io/Web-Design-Challenge/WebVisualizations/index.html)
+## [Latitude vs. X](https://kamarrashid.github.io/Web-Visualization-Dashboard/)
 
 ## Background
 
